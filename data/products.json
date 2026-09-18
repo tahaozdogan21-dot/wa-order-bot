@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "id": "urun-1",
+      "name": "Örnek Ürün Adı",
+      "description": "Ürün açıklaması buraya yazılacak.",
+      "price": "0 TL",
+      "sizes": ["S", "M", "L", "XL"],
+      "images": [
+        "https://ORNEK-GOREL-LINKI-1.jpg",
+        "https://ORNEK-GOREL-LINKI-2.jpg"
+      ]
+    }
+  ],
+  "sizeChart": [
+    { "size": "S",  "heightCm": [150, 165], "weightKg": [45, 58] },
+    { "size": "M",  "heightCm": [160, 172], "weightKg": [55, 68] },
+    { "size": "L",  "heightCm": [168, 180], "weightKg": [65, 80] },
+    { "size": "XL", "heightCm": [175, 190], "weightKg": [78, 95] }
+  ]
+}
