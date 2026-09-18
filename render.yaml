@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: wa-order-bot
+    env: docker
+    plan: free
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: OWNER_WHATSAPP_NUMBER
+        sync: false
